@@ -47,6 +47,7 @@ randomSequence <- function(min=1, max=20, check=TRUE) {
     urltxt <- paste(urlbase,
                     "?min=", min,
                     "&max=", max,
+                    "&col=", 1,
                     "&format=plain",
                     "&rnd=new",
                     sep="")
